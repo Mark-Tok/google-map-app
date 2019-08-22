@@ -1,0 +1,75 @@
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    min-width: 867px;
+    height: 100vh;
+    margin: 0 auto;
+
+    &__map {
+        position: relative;
+        height: 700px;
+        width: 100%;
+        margin-right: 40px;
+    }
+
+    &__list {
+        height: 700px;
+        padding: 0 0 0 40px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        width: 416px;
+        margin-right: 30px;
+    }
+}
+
+.list {
+    &__items {
+        max-width: 300px;
+    }
+
+    &__itemWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    &__input {
+        display: flex;
+    }
+
+    &__input input {
+        height: 31px;
+        border: 2px solid #d2d2d2;
+    }
+
+    &__input button {
+        height: 37px;
+        border: none;
+        background: #f87171;
+        color: white;
+        cursor: pointer;
+    }
+
+    &__buttonDelete {
+
+            border: none;
+            background: url('./img/trash.png');
+            color: white;
+            width: 42px;
+            height: 26px;
+            background-repeat: no-repeat;
+            background-size: 56%;
+            background-position: center;
+            cursor: pointer;
+        
+    }
+}
+
+button:focus,
+input:focus {
+    outline: 0;
+}
