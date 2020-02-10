@@ -5,7 +5,6 @@
     align-items: center;
     max-width: 1000px;
     min-width: 867px;
-    height: 100vh;
     margin: 0 auto;
 
     &__map {
@@ -72,4 +71,9 @@
 button:focus,
 input:focus {
     outline: 0;
+}
+
+.title {
+    padding: 30px;
+    text-align: center;
 }
